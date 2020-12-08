@@ -1,0 +1,125 @@
+*{
+  box-sizing:border-box;
+}
+
+html{
+  background-color:black;
+}
+
+body{
+  font-family:Impact;
+  color:white;
+  cursor:default;
+}
+
+header{
+  height:50px;
+  background-color:rgba(34,49,52,0.9);
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left{
+  font-size:35px;
+  line-height:5%;
+}
+
+
+
+.container{
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  padding:50px 0px;
+  background-image:url(https://images7.alphacoders.com/986/thumb-1920-986520.jpg);
+  color:white;
+  background-size:cover;
+  text-align:center;
+}
+
+.top-wrapper h1{
+  opacity:0.7;
+  font-size:90px;
+  letter-spacing:5px;
+  color:black;
+  transition:all 1s;
+}
+
+.top-wrapper h1:hover{
+  color:white;
+  opacity:1;
+}
+
+
+
+.top-wrapper p{
+  opacity:0.8px;
+  font-size:26px;
+}
+
+.btn-wrapper{
+  font-size:32px;
+}
+
+.btn{
+  width:210px;
+  padding:25px 0px;
+  color:black;
+  display:inline-block;
+  opacity:0.6;
+  border-radius:8px;
+  margin:0px 15px;
+  transition:all 1s;
+  box-shadow:4px 4px black;
+}
+
+.btn:hover{
+  background-color:yellow;
+  font-weight:bold;
+  opacity:0.9;
+}
+
+.btn:active{
+  box-shadow:none;
+  position:relative;
+  top:4px;
+  left:4px;
+}
+
+.analysis{
+  background-color:#239b76;
+}
+
+.dream{
+  background-color:#3b5998;
+}
+
+.twitter{
+  background-color:#55acee;
+  margin-right:10px;
+}
+
+.contact{
+  background-color:hotpink;
+}
+
+.fab,.far,.fas{
+  margin-right:15px;
+}
+
+footer{
+  background-color:black;
+  opacity:0.6;
+  line-height:50px;
+  margin-top:5%;
+  margin-bottom:0%;
+}
+
+.footer-left{
+  font-size:20px;
+}
